@@ -1,3 +1,5 @@
+// ignore_for_file: use_super_parameters, library_private_types_in_public_api, avoid_print, use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -71,7 +73,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   
                   // App name or title
                   const Text(
-                    "Service Provider Login",
+                    "Login",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 24,
@@ -178,6 +180,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         : const Text(
                             'Login',
                             style: TextStyle(
+                              color: Colors.white,
                               fontSize: 16,
                               fontWeight: FontWeight.bold,
                             ),
